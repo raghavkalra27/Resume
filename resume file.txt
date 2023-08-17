@@ -1,0 +1,183 @@
+HTML:
+
+<html>
+    <head>
+        <title>
+            RAGHAV KALRA
+        </title>
+        <link rel="stylesheet" type="text/css" href="resume.css">
+    </head>
+    <body>
+        <header id="body-header">
+            <nav>
+                <ul class="horizontal-list">
+                    <li>
+                        <a href="#"> HOME </a>
+                    </li>
+                    <li>
+                        <a href="#about"> ABOUT </a>
+                    </li>
+                    <li>
+                        <a href="#skills"> SKILLS </a>
+                    </li>
+                    <li>
+                        <a href="#experience"> EXPERIENCE </a>
+                    </li>
+                    <li>
+                        <a href="#education"> EDUACTION </a>
+                    </li>
+                    <li>
+                        <a href="#contact"> CONTACT </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="name-social-container">
+                <div id="text-center">
+                    <h1 id="my-name">
+                        RAGHAV KALRA
+                    </h1>
+                </div>
+                <div>
+                    <ul class="text-center social-icons" id="icons">
+                        <li>
+                            <a href="https://www.facebook.com/raghav.kalra.77" target="_blank"> <img src="facebook.png" alt="facebook"> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/raghavkalra27/" target="_blank"> <img src="instagram.png" alt="instagram"> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/raghav-kalra2707/" target="_blank"> <img src="linkedin.png" alt="linkedin"> </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/raghavkalra27" target="_blank"> <img src="github.png" alt="github"> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="about">
+                <div id="my-image">
+                    <img src="my-image.jpeg">
+                </div>
+                <p>
+                    I am Raghav Kalra, a Computer Science student at SRM University with a passion for developing innovative solutions. I have gained experience in developing facial recognition attendance systems using OpenCV and Firebase. Additionally, I have completed technical training in Python, Frontend development, and am currently pursuing a MERN Stack Course.
+                </p>
+                <p>
+                    I am now seeking an opportunity as a Software Engineer in a growth-oriented organization where I can contribute to the company's vision and goals while enhancing my knowledge. My technical skills include Python, C++, SQL, HTML, CSS, and JavaScript. Additionally, I am proficient in Git & GitHub, Firebase, AWS, Jupyter Notebook, VS Code, and Open CV. My soft skills include problem-solving, project management, leadership, active listening, and team motivation.
+                </p>
+            </section>
+            <section id="skills"></section>
+            <section id="experience"></section>
+            <section id="education"></section>
+            <section id="contact"></section>
+        </main>
+    </body>
+</html>
+
+CSS:
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 90vh;
+    /* opacity: 0.9; */
+    background-image: url(background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.horizontal-list{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 50px 50px 50px 0px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 0.4s;
+}
+
+.horizontal-list li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+/* Name and Social Icons*/
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* social */
+
+.social-icons{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+}
+
+.social-icons li a img{
+    width: 3.5rem;
+    padding: 10px;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    border-radius: 50%;
+}
+
+/* about */
+
+#about{
+    height: auto;
+    width: 100%;
+    /* position: relative; */
+}
+
+#my-image{
+    height: 29rem;
+    width: 27rem;
+    margin: auto;
+    margin-top: -25vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgba(230, 196, 196, 0.3);
+}
+
+#about p{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #13263c;
+    margin: 100px;
+    text-align: center;
+}
+
